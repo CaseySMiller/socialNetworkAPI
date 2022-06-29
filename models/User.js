@@ -22,7 +22,10 @@ const userSchema = new Schema(
             required: [true, 'Email address required']
         },
         // array of thoughs referencing the thought model
-        thoughts: [thoughtSchema],
+        thoughts: [{
+            type: Schema.Types.ObjectId,
+            ref: 'thought'
+        }],
         // array of friends refferencing the user model
         friends: [{
             type: Schema.Types.ObjectId,

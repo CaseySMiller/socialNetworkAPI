@@ -1,4 +1,4 @@
-const Thought = require('../models/Though')
+const Thought = require('../models/Thought')
 
 module.exports = {
     

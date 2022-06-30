@@ -19,15 +19,21 @@
   
   ## Installation
   
-  Clone the repo. Run `npm i` to install the modules. Run `npm run start` to set up the server. Exit the server. Run `npm run seed' to seed the database. Restart the server.
+  1. Clone the repo. 
+  2. Run `npm i` to install the modules. 
+  3. Install mongoDb on your machine if you do not already have it.
+  4. Run `npm run start` to set up the server. 
+  5. Exit the server. 
+  6. Run `npm run seed` to seed the database. 
+  7. Restart the server.
   
-  [Install and Usage Video](https://www.youtube.com/watch?v=9uxWzN92hBk "Install and Usage Video")
+  [Demo Video](https://www.youtube.com/watch?v=9uxWzN92hBk "Install and Usage Video")
   
-  [![Installation Video](./assets/demo.gif)](https://www.youtube.com/watch?v=9uxWzN92hBk "Install and Usage Video")
+  [![Demo Video](./assets/demo.gif)](https://www.youtube.com/watch?v=9uxWzN92hBk "Demo Video")
   
   ## Usage
   
-  This is a backend API for a social network platform. Users can be created updated and deleted. Users can link to other uers as friends. Thoughts can be created and will be linked to the associated user and others can post reactions to thoughts.
+  This is a backend API for a social network platform. Users can be created, updated and deleted. Users can link to other users as friends. Thoughts can be created and will be linked to the associated user and others can post reactions to thoughts.
   
   ## Screenshot
   

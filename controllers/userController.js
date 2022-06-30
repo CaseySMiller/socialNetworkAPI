@@ -58,7 +58,6 @@ module.exports = {
     },
     // Add one friend
     addFriend(req, res) {
-        console.log(`user: ${req.params.userId} friend: ${req.params.friendId}`);
         User.findOneAndUpdate(
             { _id: req.params.userId },
             { $addToSet: { friends: req.params.friendId } },
@@ -72,7 +71,6 @@ module.exports = {
         .catch((err) => res.status(500).json(err));
     },
     deleteFriend(req, res) {
-        console.log(`user: ${req.params.userId} friend: ${req.params.friendId}`);
         User.findOneAndUpdate(
             { _id: req.params.userId },
             { $pull: { friends: req.params.friendId } },
